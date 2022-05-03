@@ -1,38 +1,52 @@
-.App {
+body {
+  background-color: #424874;
+}
+
+.formBox {
+  background-color: #FFF;
+  border-radius: 10px;
+  border-radius: 10px;
+  max-width: 80%;
+  min-height: 70vh;
+  margin: 50px auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.inputClass {
+  padding: 15px;
+  margin: 5px;
+  min-width: 70%;
+  border-radius: 10px;
+}
+
+.formContainer {
+  align-items: center;
+  padding: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.addBtn {
+  background-color: #424874;
+  color: #FFF;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 10px;
+  width: 300px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.listBox {
+  align-self: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.listItem {
+  list-style-type: none;
+  background-color: rgba(66, 72, 116, .3);
+  margin: 3px 40px 3px 0px;
+  padding: 2px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.crossed {
+  text-decoration: line-through 1px #000;
+  opacity: .5;
 }
